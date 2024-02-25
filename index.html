@@ -13,6 +13,12 @@
     <!-- Scroll reveal CDN-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+        /* scrolling effect for nav links */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,24 +31,25 @@
 
                 </div>
                 <a href="index.html" class="logo"><img src="images/logo-rosa.png" alt=""></a>
+                <!-- Smooth scrolling added to navigation links -->
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link active">Home</a>
+                        <a href="#hero" class="nav-link active">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Menu</a>
+                        <a href="#discover-our-story" class="nav-link">Our Story</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Reservations</a>
+                        <a href="#tasteful-recipes" class="nav-link">Recipes</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">News</a>
+                        <a href="#discover-our-menu" class="nav-link">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Shop</a>
+                        <a href="#perfect-blend" class="nav-link">Blend</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
+                        <a href="#culinary-delight" class="nav-link">Delight</a>
                     </li>
                 </ul>
             </nav>
@@ -64,7 +71,7 @@
                 </div>
                 <div class="single-animation">
                     <h5>Ready to be opened</h5>
-                    <a href="#" class="btn cta-btn">Explore</a>
+                    <a href="#discover-our-story" class="btn cta-btn">Explore</a>
                 </div>
             </div>
         </div>
@@ -72,7 +79,7 @@
     <!-- HERO ENDS -->
 
     <!-- Discover our story STARTS -->
-    <section class="discover-our-story">
+    <section class="discover-our-story" id="discover-our-story">
         <div class="container">
             <div class="restaurant-info">
                 <div class="restaurant-description padding-right animate-left">
@@ -102,7 +109,7 @@
     <!-- Discover our story ENDS -->
 
     <!-- Tasteful recipes START -->
-    <section class="tasteful-recipes between">
+    <section class="tasteful-recipes between" id="tasteful-recipes">
         <div class="container">
             <div class="global-headline">
                 <div class="animate-top">
@@ -121,7 +128,7 @@
     <!-- Tasteful recipes ENDS -->
 
     <!-- Discover our menu START -->
-    <section class="discover-our-menu">
+    <section class="discover-our-menu" id="discover-our-menu">
         <div class="container">
             <div class="restaurant-info">
                 <div class="image-group padding-right animate-left">
@@ -154,7 +161,7 @@
     <!-- Discover our menu ENDS -->
 
     <!-- Perfect blend STARTS -->
-    <section class="perfect-blend between">
+    <section class="perfect-blend between" id="perfect-blend">
         <div class="container">
             <div class="global-headline">
                 <div class="animate-top">
@@ -173,7 +180,7 @@
     <!-- Perfect blend ENDS -->
 
     <!-- Culinary Delight START -->
-    <section class="culinary-delight">
+    <section class="culinary-delight" id="culinary-delight">
         <div class="container">
             <div class="restaurant-info">
                 <div class="restaurant-description padding-right animate-left">
